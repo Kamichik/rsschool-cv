@@ -17,18 +17,25 @@ I'm all about creating user-friendly experiences on the web. My strengths lie in
 ## Code Examples
 
 ```javascript
-const memoize = (fn) => {
-  const cache = {};
-  return function (param) {
-    if (cache[param]) {
-      return cache[param];
-    } else {
-      const result = fn(param);
-      cache[param] = result;
-      return result;
+function findDeletedNumber(arr, mixArr) {
+  if (arr.length === mixArr.length) {
+    return 0;
+  } else {
+    for (let i = 0; i < arr.length; ++i) {
+      let found = false;
+      for (let j = 0; j < mixArr.length; ++j) {
+        if (mixArr[j] === arr[i]) {
+          found = true;
+          break;
+        }
+      }
+      if (!found) {
+        return arr[i];
+      }
     }
-  };
-};
+    return 0;
+  }
+}
 ```
 
 ## Work Experience
