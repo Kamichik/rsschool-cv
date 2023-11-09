@@ -9,10 +9,10 @@ I'm all about creating user-friendly experiences on the web. My strengths lie in
 
 ## Skills
 
-![](./icons/icons.svg)
-![](<./icons/icons%20(1).svg>)
-![](<./icons/icons%20(2).svg>)
-![](<./icons/icons%20(3).svg>)
+![](./icons/icons8-javascript-48.png)
+![](./icons/icons8-react-48.png)
+![](./icons/icons8-html5-48.png)
+![](./icons/icons8-css-48.png)
 
 ## Code Examples
 
